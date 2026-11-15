@@ -1,0 +1,28 @@
+{
+  "type": "patch",
+  "template": true,
+  "name": "Modelo de patch de bytes",
+  "version": "1.0.0",
+  "author": "Você",
+  "description": "MODELO (não é aplicado). Mostra o formato de um mod que troca bytes do jogo. Copie esta pasta, troque 'address', 'expected' e 'replace' por valores reais e apague a linha \"template\".",
+  "options": [
+    { "id": "ativo", "label": "Ativo", "type": "boolean", "default": true },
+    { "id": "vidas", "label": "Valor", "type": "integer", "min": 1, "max": 9, "default": 3 },
+    { "id": "modo", "label": "Modo", "type": "choice", "default": "a",
+      "choices": [ { "value": "a", "label": "Modo A" }, { "value": "b", "label": "Modo B" } ] }
+  ],
+  "patches": [
+    {
+      "address": "0x80010000",
+      "expected": "00 00 00 00",
+      "replace": "00 00 00 00",
+      "when": { "modo": "a" }
+    },
+    {
+      "address": "0x80010004",
+      "expected": "00 00 00 00",
+      "replace": "00 00 00 00",
+      "when": { "modo": "b" }
+    }
+  ]
+}
