@@ -1,0 +1,9 @@
+{
+  "type": "bezel",
+  "name": "Moldura X5 (exemplo)",
+  "version": "1.0.0",
+  "author": "Você",
+  "description": "Desenha uma imagem atrás do jogo, nas bordas que sobram quando a tela não é totalmente preenchida (ex.: 4:3 em monitor largo, com o mod Widescreen desligado). Troque o bezel.png pela sua arte (1920x1080).",
+  "artwork": "bezel.png",
+  "cover": "cover.png"
+}
