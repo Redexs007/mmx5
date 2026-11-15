@@ -1,0 +1,8 @@
+{
+  "type": "texture-pack",
+  "name": "HD Texturas",
+  "version": "1.0.0",
+  "author": "Você",
+  "description": "Pacote de texturas HD. Ligue 'Capturar texturas originais', jogue e feche o jogo: os PNGs caem em dumps/. Amplie/edite e salve em replacements/ com o MESMO nome de arquivo.",
+  "cover": "cover.png"
+}
