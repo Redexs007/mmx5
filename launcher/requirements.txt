@@ -1,0 +1,6 @@
+PySide6-Essentials>=6.6
+# apenas para gerar o binario (launcher/build_launcher.sh):
+pyinstaller>=6
+# apenas para a ferramenta de ampliacao de texturas (tools/upscale.sh instala sozinha):
+pillow
+numpy
