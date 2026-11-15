@@ -1,0 +1,8 @@
+# launcher: captura ampla
+# Configuracao do sistema de captura de texturas (formato DuckStation).
+# Sem este arquivo o runtime so' captura texturas >= 16x16 que passaram por um "upload" rastreado,
+# e Mega Man X5 (2D, sprites pequenos) acaba nao gerando nenhum arquivo em dumps/.
+DumpTexturePages: true
+DumpC16Textures: true
+DumpTextureWidthThreshold: 4
+DumpTextureHeightThreshold: 4
